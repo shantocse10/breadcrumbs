@@ -56,5 +56,5 @@ $parameters = [
             ],
     ];
     
-    {!! Breadcrumbs::render('route_name', $parameters) !!}
+{!! Breadcrumbs::render('route_name', $parameters) !!}
 ```
