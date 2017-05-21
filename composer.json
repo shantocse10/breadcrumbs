@@ -7,6 +7,6 @@
             "email": "shantotrs@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "license": "MIT License",
     "require": {}
 }
