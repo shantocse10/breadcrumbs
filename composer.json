@@ -1,0 +1,12 @@
+{
+    "name": "binjar/breadcrumbs",
+    "description": "This build breadcumbs easily",
+    "authors": [
+        {
+            "name": "Touhidur Rahman",
+            "email": "shantotrs@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
