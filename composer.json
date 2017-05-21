@@ -8,5 +8,10 @@
         }
     ],
     "license": "MIT License",
-    "require": {}
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Binjar\\Breadcrumbs\\": "src/"
+		}
+	}
 }
