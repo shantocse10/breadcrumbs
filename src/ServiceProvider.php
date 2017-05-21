@@ -5,11 +5,6 @@ use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Exception;
 
 class ServiceProvider extends BaseServiceProvider {
-	public function provides()
-	{
-		return ['breadcrumbs'];
-	}
-
 	public function register() {
 		$this->app->singleton('breadcrumbs', function ($app) {
 			$breadcrumbs = $this->app->make('Binjar\Breadcrumbs\Core');
